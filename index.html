@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>main page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="leftMenu">
+        <a href="javscript:void(0)" class="btn-area" onclick="closeBtn()">&times;</a>
+        <div class="mainNav">
+            <a href="#">home</a>
+            <a href="#Cotegory">Cotegory</a>
+            <a href="#Offer">Offer</a>
+            <a href="#Review">Review</a>
+            <a href="#help">help</a>
+            <a href="#contact">contact</a>
+        </div>
+        
+    </div>
+    <span onclick="openBtn()">&#9776; Menu</span>
+    <div class="content" >
+        <div class="box">
+            <h2>BOOK ZONE</h2>
+        <h3><p>The peace of mind. Where human can relax </p></h3>
+        </div>
+    </div>
+    <div class="Cotegory" id="Cotegory">
+        <div class="box">
+            <h2>Cotegory</h2>
+            <p>This category is for Libraries - specific individual institutions, and not the profession in general.
+                See also the categories Librarians and Library science</p>
+        </div>
+                <img src="">
+    </div>
+    <div class="Offer" id="Offer">
+        <div class="box">
+            <h2>Offers & discout</h2>
+            <H3><p>50 off & Festival Offer</p></H3>
+            <div class="ofy">
+                <img style="width: ;" src="offer.png" >
+            </div>
+    </div>
+    <div class="Review" id="Review">
+        <div class="box">
+            <h2>Comment SECtion</h2>
+            <h3><p>You can share your experience here!</p></h3>
+        </div>
+       
+    </div>
+    <div class="help" id="help">
+        <div class="box">
+            <h2>help Center</h2>
+            <h3><p>You can Report here</p></h3>
+        </div>
+        
+    </div>
+    <div class="contact" id="contact">
+        <div class="box">
+            <h2>Contact</h2>
+            <h3><p>click on contact to contact us </p></h3>
+        </div>
+        
+    </div>
+    <div class="pg">
+        <center><h4><p>Libraries have always been essential in a process of provision of access to knowledge to the users. In the digital era Libraries are needed more than ever before, as they always strive to meet both the ends by making globally present information accessible to the globally present users. The Internet enables everyone to visit a library without leaving his/her home in order to get his/her book/information. Neil Gaiman perfectly describes what’s happening in digital times: “Google can bring you back 100,000 answers, a librarian can bring you back the right one.” In the backdrop of the aforesaid portrayal of the subject, the importance of Librarians in the present and future eras can hardly be overemphasized. Hence this blog, which is expected to be an important knowledge resource, for the librarians, information scientists, LIS faculty, research scholars and students. One of the highlights of the blog is to commemorate and honor the real heroes of the library profession, to whom the librarians and libraries of the present age owe a lot. Many stalwarts in Library and Information Services profession appeared on the world horizon and rendered yeomen service for progress and prosperity of our profession. Hence this blog post has been created to provide. </p></h4></center>
+
+    </div>
+    <br><br><br><br><br>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        function openBtn()
+        {
+            document.getElementById("leftMenu").style.width = "250px";
+        }
+
+        function closeBtn()
+        {
+            document.getElementById("leftMenu").style.width = "0";
+        }
+    </script>
+</body>
+</html>
